@@ -1,12 +1,35 @@
-# React + Vite
+Tapway
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Overview 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    - Tapway is an app that lets you send an emergency request with one tap, sharing your exact location (latitude and longitude) to emergency services using GPS. It has a simple login system for different users and a map to show where you are.
 
-## Expanding the ESLint configuration
+Tapway makes it easy and quick to reach emergency services when you need them most.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Technology Stack
+
+    - App: Flutter, Dart
+
+    - Database & Backend: Firebase (Firestore, Authentication, Messaging, Storage)
+
+    - Location: Geolocator, Geocoding
+
+    - Map: Flutter Map, LatLong2
+
+    - State Management: Get, Provider, Flutter Bloc
+
+    - UI/Icons: Material Design, Tabler Icons, Font Awesome
+
+Features
+
+    - One-tap emergency request with location sharing
+
+    - Pinpoint GPS for accurate location data
+
+    - Login for users and emergency services
+
+    - Easy-to-use map to see your location
+
+    - Secure data and user login with Firebase
