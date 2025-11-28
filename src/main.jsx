@@ -11,7 +11,7 @@ import 'leaflet/dist/leaflet.css';
 if (!document.getElementById('root')) {
   console.error('Root element not found! Check your index.html');
 }
-// Proper Error Boundary Component
+// Updated Nov 28
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
